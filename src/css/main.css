@@ -56,9 +56,10 @@ video {
   justify-content: stretch;
 }
 
-.box section-3 {
-  justify-content: stretch;
-  gap: 3px;
+.section-3 .box {
+  padding: auto;
+  width: 1490px;
+  text-align: left;
 }
 
 .section-4 {

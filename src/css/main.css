@@ -12,3 +12,73 @@ img,
 video {
   display: block;
 }
+
+.section {
+  background: #2a9d8f;
+}
+
+.box {
+  width: 333px;
+  height: 130px;
+  flex-shrink: 0;
+  color: #ffefef;
+  font-family: "Playfair Display";
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px; /* 119.048% */
+  letter-spacing: 0.263px;
+  background: #264653;
+  padding: 20px;
+}
+
+.section-1 {
+  display: flex;
+  text-align: center;
+  gap: 10px;
+  padding: 10px;
+}
+
+.section-2 {
+  display: flex;
+  justify-content: end;
+  text-align: center;
+  gap: 10px;
+  padding: 10px;
+}
+
+.section-3 {
+  text-align: center;
+  gap: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+}
+
+.box section-3 {
+  justify-content: stretch;
+  gap: 3px;
+}
+
+.section-4 {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  gap: 10px;
+  padding: 10px;
+}
+
+.section-5 {
+  text-align: center;
+  gap: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-5 .box {
+  padding: auto;
+  width: 450px;
+}
